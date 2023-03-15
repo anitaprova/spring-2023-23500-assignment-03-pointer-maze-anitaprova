@@ -6,14 +6,13 @@
 const std::string kYourName = "AnitaProva";
 
 /* Change these constants to contain the paths out of your mazes. */
-const std::string kPathOutOfNormalMaze = "WWEWNESW";
+const std::string kPathOutOfNormalMaze = "WWWSSNESSEEWWNEENWE";
 const std::string kPathOutOfTwistyMaze = "";
 
 int main()
 {
     MazeCell *startLocation = mazeFor(kYourName);
 
-    /* Set a breakpoint here to explore your maze! */
     if (isPathToFreedom(startLocation, kPathOutOfNormalMaze))
     {
         std::cout << "Congratulations! You've found a way out of your labyrinth." << std::endl;
@@ -27,11 +26,11 @@ int main()
 
     /* Set a breakpoint here to explore your twisty maze! */
 
-    /*if (isPathToFreedom(twistyStartLocation, kPathOutOfTwistyMaze)) {
+    if (isPathToFreedom(twistyStartLocation, kPathOutOfTwistyMaze)) {
         std::cout << "Congratulations! You've found a way out of your twisty labyrinth." << std::endl;
     } else {
         std::cout << "Sorry, but you're still stuck in your twisty labyrinth." << std::endl;
-    }*/
+    }
 
     return 0;
 }
