@@ -26,7 +26,7 @@ int main()
 
     /* Set a breakpoint here to explore your twisty maze! */
 
-    // didnt complete milsone 3
+    // didnt complete milestone 3
     /*if (isPathToFreedom(twistyStartLocation, kPathOutOfTwistyMaze))
     {
         std::cout << "Congratulations! You've found a way out of your twisty labyrinth." << std::endl;
